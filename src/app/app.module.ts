@@ -8,6 +8,8 @@ import { KeyupComponent } from './keyup/keyup.component';
 import { LoopBackComponent } from './loop-back/loop-back.component';
 import { HeroParentComponent } from './hero-parent/hero-parent.component';
 import { HeroChildComponent } from './hero-child/hero-child.component';
+import { VoterComponent } from './voter/voter.component';
+import { VoteTakerComponent } from './vote-taker/vote-taker.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HeroChildComponent } from './hero-child/hero-child.component';
     KeyupComponent,
     LoopBackComponent,
     HeroParentComponent,
-    HeroChildComponent
+    HeroChildComponent,
+    VoterComponent,
+    VoteTakerComponent
   ],
   imports: [
     BrowserModule,
