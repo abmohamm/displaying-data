@@ -3,14 +3,15 @@ import { Hero } from './hero';
 
 @Component({
   selector: 'app-root',
-  template: `<h1>{{ title }}</h1>
+  templateUrl: './app.component.html',
+  /* template: `<h1>{{ title }}</h1>
              <h2>My Favorite Hero is : {{ myHero.name }}</h2>
              <p>Heroes: </p>
              <ul>
                   <li *ngFor="let hero of heroes">
                         {{ hero.name }}
                   </li>
-             </ul>`,
+             </ul>`, */
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
