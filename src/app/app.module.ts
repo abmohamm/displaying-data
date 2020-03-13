@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +15,7 @@ import { VoteTakerComponent } from './vote-taker/vote-taker.component';
 import { CountdownChildComponent } from './countdown-child/countdown-child.component';
 import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
 import { PipeDemoComponent } from './pipe-demo/pipe-demo.component';
+import { FormControlDemoComponent } from './form-control-demo/form-control-demo.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +29,13 @@ import { PipeDemoComponent } from './pipe-demo/pipe-demo.component';
     VoteTakerComponent,
     CountdownChildComponent,
     CountdownParentComponent,
-    PipeDemoComponent
+    PipeDemoComponent,
+    FormControlDemoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
