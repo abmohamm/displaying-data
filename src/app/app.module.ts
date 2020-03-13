@@ -16,6 +16,7 @@ import { CountdownChildComponent } from './countdown-child/countdown-child.compo
 import { CountdownParentComponent } from './countdown-parent/countdown-parent.component';
 import { PipeDemoComponent } from './pipe-demo/pipe-demo.component';
 import { FormControlDemoComponent } from './form-control-demo/form-control-demo.component';
+import { FormGroupDemoComponent } from './form-group-demo/form-group-demo.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { FormControlDemoComponent } from './form-control-demo/form-control-demo.
     CountdownChildComponent,
     CountdownParentComponent,
     PipeDemoComponent,
-    FormControlDemoComponent
+    FormControlDemoComponent,
+    FormGroupDemoComponent
   ],
   imports: [
     BrowserModule,
