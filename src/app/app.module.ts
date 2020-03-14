@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -17,6 +17,7 @@ import { CountdownParentComponent } from './countdown-parent/countdown-parent.co
 import { PipeDemoComponent } from './pipe-demo/pipe-demo.component';
 import { FormControlDemoComponent } from './form-control-demo/form-control-demo.component';
 import { FormGroupDemoComponent } from './form-group-demo/form-group-demo.component';
+import { TemplateDrivenDemoComponent } from './template-driven-demo/template-driven-demo.component';
 
 @NgModule({
   declarations: [
@@ -32,9 +33,11 @@ import { FormGroupDemoComponent } from './form-group-demo/form-group-demo.compon
     CountdownParentComponent,
     PipeDemoComponent,
     FormControlDemoComponent,
-    FormGroupDemoComponent
+    FormGroupDemoComponent,
+    TemplateDrivenDemoComponent
   ],
   imports: [
+    FormsModule,
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule
