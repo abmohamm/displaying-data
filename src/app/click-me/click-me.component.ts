@@ -4,7 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-click-me',
   template: `<button (click)="onClickMe()">Click me!</button><br/>
                     {{clickMessage}}`,
-  styleUrls: ['./click-me.component.css']
+  styleUrls: ['./click-me.component.css'],
+  providers: []
 })
 export class ClickMeComponent implements OnInit {
   clickMessage = '';
